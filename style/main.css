@@ -1,0 +1,58 @@
+:root{
+  --preta: #141414;
+  --vermelha:#E50914;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 10px;
+    font-family: 'Arial Black', Times;
+    color: var(--vermelha);
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: blue;
+}
+
+.principal{
+    color: white;
+    font-size: 16px;
+    height: 600px;
+    background:  linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), URL('../img/la-casa-de-papel-parte-5-poster.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  
+}
+
+.principal .descricao{
+    margin-bottom: 40px;
+}
+
+
+
